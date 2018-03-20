@@ -6,8 +6,8 @@ def deal_card
   return (rand(12) +1)
 end
 
-def display_card_total
-  
+def display_card_total(num)
+  "Your cards add up to #{num}"
 end
 
 def prompt_user
@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  return gets
 end
 
 def end_game
