@@ -31,11 +31,21 @@ def initial_round
   
 end
 
-def hit?
-  # code hit? here
+def hit?(num)
+  prompt_user()
+  command = get_user_input()
+  if (command == "h")
+    
+  end
+  
+  
+
 end
 
 def invalid_command
+  
+  
+  
   # code invalid_command here
 end
 
