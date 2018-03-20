@@ -1,8 +1,8 @@
 require_relative "blackjack.rb"
   welcome()
-  initial_round()
   total = initial_round()
-  if (hit?() < 21)
+  if (total < 21)
+    total = hit();
     display_card_total
   end 
   
